@@ -1,0 +1,488 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "exportAll": "Export All",
+    "refresh": "Refresh",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "close": "Close",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Info"
+  },
+  "header": {
+    "title": "E-Scooter Admin",
+    "profile": {
+      "adminUser": "Admin User",
+      "email": "admin@barqscoot.com",
+      "settings": "Settings",
+      "signOut": "Sign Out"
+    }
+  },
+  "sidebar": {
+    "brand": "BarqScoot",
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "scooters": "Scooters",
+    "bookings": "Bookings",
+    "customerSupport": "Customer Support",
+    "dynamicPricing": "Dynamic Pricing",
+    "reportsAnalytics": "Reports and Analytics",
+    "operations": "Operations",
+    "fleetMonitoring": "Fleet Monitoring",
+    "geofencing": "Geofencing",
+    "incidents": "Incidents",
+    "marketing": "Marketing",
+    "notifications": "Notifications",
+    "promotions": "Promotions",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Real-time overview of your e-scooter fleet",
+    "timeRange": {
+      "lastHour": "Last Hour",
+      "last24Hours": "Last 24 Hours",
+      "last7Days": "Last 7 Days",
+      "last30Days": "Last 30 Days"
+    },
+    "stats": {
+      "totalRevenue": "Total Revenue",
+      "activeScooters": "Active Scooters",
+      "activeUsers": "Active Users",
+      "activeRides": "Active Rides",
+      "ridesCompleted": "rides completed",
+      "currentlyInUse": "currently in use",
+      "totalRegistered": "total registered",
+      "currentlyOngoing": "Currently ongoing",
+      "vsLastPeriod": "vs last period"
+    },
+    "alerts": {
+      "systemAlerts": "System Alerts",
+      "activeAlerts": "active alerts",
+      "noAlertsToDisplay": "No alerts to display",
+      "allSystemsRunning": "All systems running smoothly",
+      "markAllAsRead": "Mark all as read",
+      "viewAllAlerts": "View all alerts",
+      "takeAction": "Take Action",
+      "lowBattery": "Low Battery Alert",
+      "lowBatteryMessage": "scooters have battery below 20%",
+      "scooterOffline": "Scooter Offline",
+      "scooterOfflineMessage": "Scooter SC-001 has been offline for 30 minutes",
+      "maintenanceScheduled": "Maintenance Scheduled",
+      "maintenanceScheduledMessage": "3 scooters scheduled for maintenance tomorrow",
+      "fleetUpdateComplete": "Fleet Update Complete",
+      "fleetUpdateMessage": "Software update deployed to 25 scooters",
+      "maintenanceRequired": "Maintenance Required",
+      "maintenanceMessage": "scooters require maintenance",
+      "minutesAgo": "minutes ago",
+      "timeAgo": {
+        "2minutes": "2 minutes ago",
+        "5minutes": "5 minutes ago",
+        "10minutes": "10 minutes ago",
+        "15minutes": "15 minutes ago"
+      },
+      "filters": {
+        "all": "All",
+        "errors": "Errors",
+        "warnings": "Warnings",
+        "info": "Info",
+        "success": "Success"
+      }
+    },
+    "locationTrends": {
+      "title": "Location Performance",
+      "tooltip": "Compare performance across different locations and identify high-demand areas",
+      "timeRanges": {
+        "today": "Today",
+        "week": "Last 7 Days",
+        "month": "This Month"
+      },
+      "chartTypes": {
+        "bar": "Bar Chart",
+        "pie": "Pie Chart"
+      },
+      "metrics": {
+        "rides": "Rides",
+        "revenue": "Revenue ($)"
+      },
+      "sections": {
+        "topPerformers": "Top Performers",
+        "locationSummary": "Location Summary",
+        "performanceInsights": "Performance Insights"
+      },
+      "summaryLabels": {
+        "totalRides": "Total Rides:",
+        "totalRevenue": "Total Revenue:",
+        "avgUtilization": "Avg Utilization:",
+        "topLocation": "Top Location:"
+      },
+      "insightLabels": {
+        "growthRate": "Growth Rate:",
+        "coverage": "Coverage:",
+        "demandScore": "Demand Score:",
+        "expansion": "Expansion:"
+      },
+      "insightValues": {
+        "zones": "zones",
+        "planned": "planned"
+      }
+    },
+    "usageHeatmap": {
+      "title": "Usage Heatmap",
+      "subtitle": "Scooter usage patterns and hotspots",
+      "viewTypes": {
+        "location": "By Location",
+        "time": "By Time",
+        "both": "Both"
+      },
+      "locationBased": "Location-based Usage",
+      "timeBased": "Time-based Usage",
+      "usageIntensity": "Usage intensity",
+      "rides": "rides",
+      "high": "High",
+      "low": "Low",
+      "topUsageZones": "Top Usage Zones",
+      "peakHours": "Peak Hours"
+    },
+    "fleetStatus": {
+      "title": "Fleet Status",
+      "subtitle": "Real-time monitoring of 16 scooters",
+      "sortBy": "Sort by Battery",
+      "allScooters": "All Scooters",
+      "available": "Available",
+      "inUse": "In Use",
+      "maintenance": "Maintenance",
+      "offline": "Offline",
+      "fleetUtilization": "Fleet Utilization",
+      "avgBattery": "Avg Battery",
+      "healthScore": "Health Score",
+      "lastUsed": "Last used",
+      "locations": {
+        "downtown": "Downtown",
+        "university": "University",
+        "businessDistrict": "Business District",
+        "residentialNorth": "Residential North",
+        "airport": "Airport",
+        "shoppingMall": "Shopping Mall",
+        "beachArea": "Beach Area",
+        "industrial": "Industrial"
+      }
+    }
+  },
+  "users": {
+    "title": "Users",
+    "addNewUser": "Add New User",
+    "searchUsers": "Search users...",
+    "filterByStatus": "Filter by Status",
+    "allStatuses": "All Statuses",
+    "active": "Active",
+    "inactive": "Inactive",
+    "suspended": "Suspended",
+    "exportUsers": "Export Users",
+    "totalUsers": "Total Users",
+    "activeUsers": "Active Users",
+    "newToday": "New Today",
+    "averageRides": "Average Rides"
+  },
+  "scooters": {
+    "title": "Scooters",
+    "addNewScooter": "Add New Scooter",
+    "searchScooters": "Search scooters...",
+    "filterByStatus": "Filter by Status",
+    "available": "Available",
+    "inUse": "In Use",
+    "maintenance": "Maintenance",
+    "offline": "Offline",
+    "batteryLevel": "Battery Level",
+    "location": "Location",
+    "model": "Model",
+    "currentStatus": "Current Status",
+    "viewMode": {
+      "list": "List View",
+      "map": "Map View"
+    },
+    "stats": {
+      "totalScooters": "Total Scooters",
+      "availableScooters": "Available Scooters",
+      "inUseScooters": "In Use",
+      "maintenanceScooters": "Maintenance"
+    }
+  },
+  "bookings": {
+    "title": "Bookings",
+    "searchBookings": "Search bookings...",
+    "filterByStatus": "Filter by Status",
+    "allStatuses": "All Statuses",
+    "active": "Active",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "pending": "Pending",
+    "exportBookings": "Export Bookings",
+    "totalBookings": "Total Bookings",
+    "activeBookings": "Active Bookings",
+    "completedToday": "Completed Today",
+    "averageDuration": "Average Duration"
+  },
+  "support": {
+    "title": "Customer Support",
+    "subtitle": "Manage customer queries, disputes, and support tickets",
+    "newTicket": "New Ticket",
+    "searchTickets": "Search tickets...",
+    "filterByPriority": "Filter by Priority",
+    "filterByStatus": "Filter by Status",
+    "allPriorities": "All Priorities",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low",
+    "open": "Open",
+    "inProgress": "In Progress",
+    "resolved": "Resolved",
+    "closed": "Closed",
+    "customerSatisfaction": "satisfaction",
+    "avgResponseTime": "avg response time"
+  },
+  "pricing": {
+    "title": "Dynamic Pricing",
+    "subtitle": "Manage pricing rules and strategies",
+    "basePricing": "Base Pricing",
+    "demandMultiplier": "Demand Multiplier",
+    "weatherImpact": "Weather Impact",
+    "timeBasedPricing": "Time-based Pricing"
+  },
+  "reports": {
+    "title": "Reports and Analytics",
+    "subtitle": "Comprehensive analytics and reporting",
+    "generateReport": "Generate Report",
+    "exportReport": "Export Report",
+    "dateRange": "Date Range",
+    "reportType": "Report Type"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "subtitle": "Manage system notifications and alerts",
+    "createNotification": "Create Notification",
+    "sendNotification": "Send Notification",
+    "notificationType": "Notification Type",
+    "recipients": "Recipients",
+    "message": "Message",
+    "scheduled": "Scheduled",
+    "sent": "Sent",
+    "draft": "Draft"
+  },
+  "promotions": {
+    "title": "Promotions",
+    "subtitle": "Manage promotional campaigns and offers",
+    "createPromotion": "Create Promotion",
+    "promotionName": "Promotion Name",
+    "discountType": "Discount Type",
+    "discountValue": "Discount Value",
+    "validFrom": "Valid From",
+    "validTo": "Valid To",
+    "usageLimit": "Usage Limit"
+  },
+  "fleetMonitoring": {
+    "title": "Fleet Monitoring",
+    "subtitle": "Real-time fleet tracking and monitoring",
+    "totalFleet": "Total Fleet",
+    "activeVehicles": "Active Vehicles",
+    "maintenanceRequired": "Maintenance Required",
+    "batteryStatus": "Battery Status"
+  },
+  "geofencing": {
+    "title": "Geofencing",
+    "subtitle": "Manage operational zones and boundaries",
+    "createZone": "Create Zone",
+    "zoneName": "Zone Name",
+    "zoneType": "Zone Type",
+    "operationalZone": "Operational Zone",
+    "restrictedZone": "Restricted Zone",
+    "parkingZone": "Parking Zone"
+  },
+  "incidents": {
+    "title": "Incidents",
+    "subtitle": "Track and manage incidents and issues",
+    "reportIncident": "Report Incident",
+    "incidentType": "Incident Type",
+    "severity": "Severity",
+    "description": "Description",
+    "assignedTo": "Assigned To",
+    "status": "Status",
+    "createdAt": "Created At"
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "System configuration and preferences",
+    "general": "General",
+    "security": "Security",
+    "notifications": "Notifications",
+    "integrations": "Integrations",
+    "backup": "Backup",
+    "logs": "Logs"
+  },
+  "forms": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phoneNumber": "Phone Number",
+    "city": "City",
+    "status": "Status",
+    "name": "Name",
+    "description": "Description",
+    "required": "Required",
+    "optional": "Optional",
+    "selectOption": "Select an option",
+    "enterValue": "Enter value",
+    "chooseFile": "Choose file",
+    "uploadImage": "Upload image"
+  },
+  "table": {
+    "id": "ID",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "city": "City",
+    "status": "Status",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "actions": "Actions",
+    "noDataFound": "No data found",
+    "noResultsFound": "No results found",
+    "tryAdjustingFilters": "Try adjusting your search criteria or filters",
+    "loading": "Loading...",
+    "rowsPerPage": "Rows per page",
+    "of": "of",
+    "page": "Page"
+  },
+  "messages": {
+    "saveSuccess": "Saved successfully",
+    "deleteSuccess": "Deleted successfully",
+    "updateSuccess": "Updated successfully",
+    "createSuccess": "Created successfully",
+    "exportSuccess": "Export completed successfully",
+    "operationFailed": "Operation failed",
+    "confirmDelete": "Are you sure you want to delete this item?",
+    "confirmAction": "Are you sure you want to perform this action?",
+    "unsavedChanges": "You have unsaved changes. Are you sure you want to leave?",
+    "networkError": "Network error. Please check your connection.",
+    "serverError": "Server error. Please try again later.",
+    "validationError": "Please check the form for errors.",
+    "accessDenied": "Access denied. You don't have permission to perform this action."
+  },
+  "analytics": {
+    "title": "Analytics Dashboard",
+    "revenueMetrics": "Revenue Metrics",
+    "bookingTrends": "Booking Trends",
+    "userActivity": "User Activity",
+    "fleetPerformance": "Fleet Performance",
+    "insights": {
+      "peakHourPerformance": "Peak Hour Performance",
+      "batteryAlert": "Battery Alert",
+      "revenueTarget": "Revenue Target",
+      "monthlyAchievement": "Monthly Achievement",
+      "efficiencyImprovement": "Efficiency Improvement",
+      "marketExpansion": "Market Expansion"
+    }
+  },
+  "viewModes": {
+    "overview": "Overview",
+    "list": "List",
+    "bookingsList": "Bookings List",
+    "disputeManagement": "Dispute Management",
+    "analytics": "Analytics",
+    "stats": "Stats"
+  },
+  "templates": {
+    "title": "Notification Templates",
+    "subtitle": "Pre-built templates for common notification types",
+    "searchPlaceholder": "Search templates...",
+    "createTemplate": "Create Template",
+    "useTemplate": "Use Template",
+    "editTemplate": "Edit template",
+    "copyTemplate": "Copy template",
+    "deleteTemplate": "Delete template",
+    "noTemplatesFound": "No templates found",
+    "tryAdjustingFilters": "Try adjusting your search or filter criteria",
+    "createFirstTemplate": "Create your first template to get started",
+    "usedTimes": "Used {count} times",
+    "welcomeNewUser": "Welcome New User",
+    "promotionalOffer": "Promotional Offer",
+    "maintenanceAlert": "Maintenance Alert",
+    "rideReminder": "Ride Reminder",
+    "paymentFailed": "Payment Failed",
+    "rideCompleted": "Ride Completed",
+    "categories": {
+      "all": "All",
+      "onboarding": "Onboarding",
+      "marketing": "Marketing",
+      "transactional": "Transactional",
+      "operational": "Operational"
+    }
+  },
+  "reports": {
+    "customReports": "Custom Reports",
+    "weeklyRevenueSummary": "Weekly Revenue Summary",
+    "userEngagementAnalysis": "User Engagement Analysis",
+    "fleetUtilizationReport": "Fleet Utilization Report",
+    "comprehensiveWeeklyRevenue": "Comprehensive weekly revenue breakdown by zones",
+    "monthlyUserBehavior": "Monthly user behavior and engagement patterns",
+    "dailyFleetPerformance": "Daily fleet performance and maintenance tracking"
+  },
+  "schedule": {
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "daily": "Daily",
+    "lastRun": "Last Run",
+    "scheduledFor": "Scheduled For",
+    "createdAt": "Created At"
+  },
+  "audience": {
+    "newUsers": "New Users",
+    "activeUsers": "Active Users",
+    "locationBased": "Location Based",
+    "inactiveUsers": "Inactive Users",
+    "paymentFailed": "Payment Failed",
+    "recentRiders": "Recent Riders"
+  },
+  "channels": {
+    "push": "Push",
+    "email": "Email",
+    "sms": "SMS",
+    "inApp": "In-App"
+  },
+  "metrics": {
+    "revenue": "Revenue",
+    "rides": "Rides",
+    "zones": "Zones",
+    "users": "Users",
+    "sessions": "Sessions",
+    "retention": "Retention",
+    "fleet": "Fleet",
+    "battery": "Battery",
+    "maintenance": "Maintenance",
+    "openRate": "Open Rate",
+    "clickRate": "Click Rate",
+    "deliveryRate": "Delivery Rate",
+    "sent": "Sent",
+    "delivered": "Delivered",
+    "failed": "Failed",
+    "opened": "Opened",
+    "clicked": "Clicked"
+  }
+}

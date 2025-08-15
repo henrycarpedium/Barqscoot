@@ -1,0 +1,487 @@
+{
+  "common": {
+    "loading": "جاري التحميل...",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "search": "بحث",
+    "filter": "تصفية",
+    "export": "تصدير",
+    "exportAll": "تصدير الكل",
+    "refresh": "تحديث",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "submit": "إرسال",
+    "close": "إغلاق",
+    "confirm": "تأكيد",
+    "yes": "نعم",
+    "no": "لا",
+    "ok": "موافق",
+    "error": "خطأ",
+    "success": "نجح",
+    "warning": "تحذير",
+    "info": "معلومات"
+  },
+  "header": {
+    "title": "إدارة السكوتر الكهربائي",
+    "profile": {
+      "adminUser": "مستخدم إداري",
+      "email": "admin@barqscoot.com",
+      "settings": "الإعدادات",
+      "signOut": "تسجيل الخروج"
+    }
+  },
+  "sidebar": {
+    "brand": "برق سكوت",
+    "dashboard": "لوحة التحكم",
+    "users": "المستخدمون",
+    "scooters": "السكوترات",
+    "bookings": "الحجوزات",
+    "customerSupport": "دعم العملاء",
+    "dynamicPricing": "التسعير الديناميكي",
+    "reportsAnalytics": "التقارير والتحليلات",
+    "operations": "العمليات",
+    "fleetMonitoring": "مراقبة الأسطول",
+    "geofencing": "السياج الجغرافي",
+    "incidents": "الحوادث",
+    "marketing": "التسويق",
+    "notifications": "الإشعارات",
+    "promotions": "العروض الترويجية",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "subtitle": "نظرة عامة في الوقت الفعلي على أسطول السكوتر الكهربائي",
+    "timeRange": {
+      "lastHour": "الساعة الماضية",
+      "last24Hours": "آخر 24 ساعة",
+      "last7Days": "آخر 7 أيام",
+      "last30Days": "آخر 30 يوماً"
+    },
+    "stats": {
+      "totalRevenue": "إجمالي الإيرادات",
+      "activeScooters": "السكوترات النشطة",
+      "activeUsers": "المستخدمون النشطون",
+      "activeRides": "الرحلات النشطة",
+      "ridesCompleted": "رحلة مكتملة",
+      "currentlyInUse": "قيد الاستخدام حالياً",
+      "totalRegistered": "إجمالي المسجلين",
+      "currentlyOngoing": "جارية حالياً",
+      "vsLastPeriod": "مقارنة بالفترة السابقة"
+    },
+    "alerts": {
+      "systemAlerts": "تنبيهات النظام",
+      "activeAlerts": "تنبيهات نشطة",
+      "noAlertsToDisplay": "لا توجد تنبيهات للعرض",
+      "allSystemsRunning": "جميع الأنظمة تعمل بسلاسة",
+      "markAllAsRead": "تحديد الكل كمقروء",
+      "viewAllAlerts": "عرض جميع التنبيهات",
+      "takeAction": "اتخاذ إجراء",
+      "lowBattery": "تنبيه بطارية منخفضة",
+      "lowBatteryMessage": "5 سكوترات لديها بطارية أقل من 20%",
+      "scooterOffline": "سكوتر غير متصل",
+      "scooterOfflineMessage": "السكوتر SC-001 غير متصل منذ 30 دقيقة",
+      "maintenanceScheduled": "صيانة مجدولة",
+      "maintenanceScheduledMessage": "3 سكوترات مجدولة للصيانة غداً",
+      "fleetUpdateComplete": "تحديث الأسطول مكتمل",
+      "fleetUpdateMessage": "تم نشر تحديث البرنامج على 25 سكوتر",
+      "maintenanceRequired": "صيانة مطلوبة",
+      "maintenanceMessage": "سكوتر تحتاج إلى صيانة",
+      "minutesAgo": "دقائق مضت",
+      "timeAgo": {
+        "2minutes": "منذ دقيقتين",
+        "5minutes": "منذ 5 دقائق",
+        "10minutes": "منذ 10 دقائق",
+        "15minutes": "منذ 15 دقيقة"
+      },
+      "filters": {
+        "all": "الكل",
+        "errors": "أخطاء",
+        "warnings": "تحذيرات",
+        "info": "معلومات",
+        "success": "نجح"
+      }
+    },
+    "locationTrends": {
+      "title": "أداء المواقع",
+      "tooltip": "قارن الأداء عبر المواقع المختلفة وحدد المناطق عالية الطلب",
+      "timeRanges": {
+        "today": "اليوم",
+        "week": "آخر 7 أيام",
+        "month": "هذا الشهر"
+      },
+      "chartTypes": {
+        "bar": "مخطط أعمدة",
+        "pie": "مخطط دائري"
+      },
+      "metrics": {
+        "rides": "الرحلات",
+        "revenue": "الإيرادات (ريال)"
+      },
+      "sections": {
+        "topPerformers": "الأفضل أداءً",
+        "locationSummary": "ملخص المواقع",
+        "performanceInsights": "رؤى الأداء"
+      },
+      "summaryLabels": {
+        "totalRides": "إجمالي الرحلات:",
+        "totalRevenue": "إجمالي الإيرادات:",
+        "avgUtilization": "متوسط الاستخدام:",
+        "topLocation": "أفضل موقع:"
+      },
+      "insightLabels": {
+        "growthRate": "معدل النمو:",
+        "coverage": "التغطية:",
+        "demandScore": "نقاط الطلب:",
+        "expansion": "التوسع:"
+      },
+      "insightValues": {
+        "zones": "مناطق",
+        "planned": "مخطط"
+      }
+    },
+    "usageHeatmap": {
+      "title": "خريطة الاستخدام الحرارية",
+      "subtitle": "أنماط استخدام السكوتر والنقاط الساخنة",
+      "viewTypes": {
+        "location": "حسب الموقع",
+        "time": "حسب الوقت",
+        "both": "كلاهما"
+      },
+      "locationBased": "الاستخدام حسب الموقع",
+      "timeBased": "الاستخدام حسب الوقت",
+      "usageIntensity": "كثافة الاستخدام",
+      "rides": "رحلات",
+      "high": "عالي",
+      "low": "منخفض",
+      "topUsageZones": "أفضل مناطق الاستخدام",
+      "peakHours": "ساعات الذروة"
+    },
+    "fleetStatus": {
+      "title": "حالة الأسطول",
+      "subtitle": "مراقبة في الوقت الفعلي لـ 16 سكوتر",
+      "sortBy": "ترتيب حسب البطارية",
+      "allScooters": "جميع السكوترات",
+      "available": "متاح",
+      "inUse": "قيد الاستخدام",
+      "maintenance": "صيانة",
+      "offline": "غير متصل",
+      "fleetUtilization": "استخدام الأسطول",
+      "avgBattery": "متوسط البطارية",
+      "healthScore": "نقاط الصحة",
+      "lastUsed": "آخر استخدام",
+      "locations": {
+        "downtown": "وسط المدينة",
+        "university": "الجامعة",
+        "businessDistrict": "الحي التجاري",
+        "residentialNorth": "السكني الشمالي",
+        "airport": "المطار",
+        "shoppingMall": "المول التجاري",
+        "beachArea": "منطقة الشاطئ",
+        "industrial": "الصناعي"
+      }
+    }
+  },
+  "users": {
+    "title": "المستخدمون",
+    "addNewUser": "إضافة مستخدم جديد",
+    "searchUsers": "البحث عن المستخدمين...",
+    "filterByStatus": "تصفية حسب الحالة",
+    "allStatuses": "جميع الحالات",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "suspended": "معلق",
+    "exportUsers": "تصدير المستخدمين",
+    "totalUsers": "إجمالي المستخدمين",
+    "activeUsers": "المستخدمون النشطون",
+    "newToday": "جديد اليوم",
+    "averageRides": "متوسط الرحلات"
+  },
+  "scooters": {
+    "title": "السكوترات",
+    "addNewScooter": "إضافة سكوتر جديد",
+    "searchScooters": "البحث عن السكوترات...",
+    "filterByStatus": "تصفية حسب الحالة",
+    "available": "متاح",
+    "inUse": "قيد الاستخدام",
+    "maintenance": "صيانة",
+    "offline": "غير متصل",
+    "batteryLevel": "مستوى البطارية",
+    "location": "الموقع",
+    "model": "الطراز",
+    "currentStatus": "الحالة الحالية",
+    "viewMode": {
+      "list": "عرض القائمة",
+      "map": "عرض الخريطة"
+    },
+    "stats": {
+      "totalScooters": "إجمالي السكوترات",
+      "availableScooters": "السكوترات المتاحة",
+      "inUseScooters": "قيد الاستخدام",
+      "maintenanceScooters": "الصيانة"
+    }
+  },
+  "bookings": {
+    "title": "الحجوزات",
+    "searchBookings": "البحث عن الحجوزات...",
+    "filterByStatus": "تصفية حسب الحالة",
+    "allStatuses": "جميع الحالات",
+    "active": "نشط",
+    "completed": "مكتمل",
+    "cancelled": "ملغي",
+    "pending": "معلق",
+    "exportBookings": "تصدير الحجوزات",
+    "totalBookings": "إجمالي الحجوزات",
+    "activeBookings": "الحجوزات النشطة",
+    "completedToday": "مكتمل اليوم",
+    "averageDuration": "متوسط المدة"
+  },
+  "support": {
+    "title": "دعم العملاء",
+    "subtitle": "إدارة استفسارات العملاء والنزاعات وتذاكر الدعم",
+    "newTicket": "تذكرة جديدة",
+    "searchTickets": "البحث عن التذاكر...",
+    "filterByPriority": "تصفية حسب الأولوية",
+    "filterByStatus": "تصفية حسب الحالة",
+    "allPriorities": "جميع الأولويات",
+    "high": "عالي",
+    "medium": "متوسط",
+    "low": "منخفض",
+    "open": "مفتوح",
+    "inProgress": "قيد التنفيذ",
+    "resolved": "محلول",
+    "closed": "مغلق",
+    "customerSatisfaction": "الرضا",
+    "avgResponseTime": "متوسط وقت الاستجابة"
+  },
+  "pricing": {
+    "title": "التسعير الديناميكي",
+    "subtitle": "إدارة قواعد واستراتيجيات التسعير",
+    "basePricing": "التسعير الأساسي",
+    "demandMultiplier": "مضاعف الطلب",
+    "weatherImpact": "تأثير الطقس",
+    "timeBasedPricing": "التسعير القائم على الوقت"
+  },
+
+  "notifications": {
+    "title": "الإشعارات",
+    "subtitle": "إدارة إشعارات النظام والتنبيهات",
+    "createNotification": "إنشاء إشعار",
+    "sendNotification": "إرسال إشعار",
+    "notificationType": "نوع الإشعار",
+    "recipients": "المستلمون",
+    "message": "الرسالة",
+    "scheduled": "مجدول",
+    "sent": "مرسل",
+    "draft": "مسودة"
+  },
+  "promotions": {
+    "title": "العروض الترويجية",
+    "subtitle": "إدارة الحملات الترويجية والعروض",
+    "createPromotion": "إنشاء عرض ترويجي",
+    "promotionName": "اسم العرض الترويجي",
+    "discountType": "نوع الخصم",
+    "discountValue": "قيمة الخصم",
+    "validFrom": "صالح من",
+    "validTo": "صالح حتى",
+    "usageLimit": "حد الاستخدام"
+  },
+  "fleetMonitoring": {
+    "title": "مراقبة الأسطول",
+    "subtitle": "تتبع ومراقبة الأسطول في الوقت الفعلي",
+    "totalFleet": "إجمالي الأسطول",
+    "activeVehicles": "المركبات النشطة",
+    "maintenanceRequired": "صيانة مطلوبة",
+    "batteryStatus": "حالة البطارية"
+  },
+  "geofencing": {
+    "title": "السياج الجغرافي",
+    "subtitle": "إدارة المناطق التشغيلية والحدود",
+    "createZone": "إنشاء منطقة",
+    "zoneName": "اسم المنطقة",
+    "zoneType": "نوع المنطقة",
+    "operationalZone": "منطقة تشغيلية",
+    "restrictedZone": "منطقة محظورة",
+    "parkingZone": "منطقة وقوف"
+  },
+  "incidents": {
+    "title": "الحوادث",
+    "subtitle": "تتبع وإدارة الحوادث والمشاكل",
+    "reportIncident": "الإبلاغ عن حادث",
+    "incidentType": "نوع الحادث",
+    "severity": "الخطورة",
+    "description": "الوصف",
+    "assignedTo": "مُعيَّن إلى",
+    "status": "الحالة",
+    "createdAt": "تم الإنشاء في"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "subtitle": "تكوين النظام والتفضيلات",
+    "general": "عام",
+    "security": "الأمان",
+    "notifications": "الإشعارات",
+    "integrations": "التكاملات",
+    "backup": "النسخ الاحتياطي",
+    "logs": "السجلات"
+  },
+  "forms": {
+    "firstName": "الاسم الأول",
+    "lastName": "اسم العائلة",
+    "email": "البريد الإلكتروني",
+    "phoneNumber": "رقم الهاتف",
+    "city": "المدينة",
+    "status": "الحالة",
+    "name": "الاسم",
+    "description": "الوصف",
+    "required": "مطلوب",
+    "optional": "اختياري",
+    "selectOption": "اختر خياراً",
+    "enterValue": "أدخل القيمة",
+    "chooseFile": "اختر ملف",
+    "uploadImage": "رفع صورة"
+  },
+  "table": {
+    "id": "المعرف",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف",
+    "city": "المدينة",
+    "status": "الحالة",
+    "createdAt": "تم الإنشاء في",
+    "updatedAt": "تم التحديث في",
+    "actions": "الإجراءات",
+    "noDataFound": "لم يتم العثور على بيانات",
+    "noResultsFound": "لم يتم العثور على نتائج",
+    "tryAdjustingFilters": "حاول تعديل معايير البحث أو المرشحات",
+    "loading": "جاري التحميل...",
+    "rowsPerPage": "صفوف لكل صفحة",
+    "of": "من",
+    "page": "صفحة"
+  },
+  "messages": {
+    "saveSuccess": "تم الحفظ بنجاح",
+    "deleteSuccess": "تم الحذف بنجاح",
+    "updateSuccess": "تم التحديث بنجاح",
+    "createSuccess": "تم الإنشاء بنجاح",
+    "exportSuccess": "تم التصدير بنجاح",
+    "operationFailed": "فشلت العملية",
+    "confirmDelete": "هل أنت متأكد من أنك تريد حذف هذا العنصر؟",
+    "confirmAction": "هل أنت متأكد من أنك تريد تنفيذ هذا الإجراء؟",
+    "unsavedChanges": "لديك تغييرات غير محفوظة. هل أنت متأكد من أنك تريد المغادرة؟",
+    "networkError": "خطأ في الشبكة. يرجى التحقق من اتصالك.",
+    "serverError": "خطأ في الخادم. يرجى المحاولة مرة أخرى لاحقاً.",
+    "validationError": "يرجى التحقق من النموذج للأخطاء.",
+    "accessDenied": "تم رفض الوصول. ليس لديك إذن لتنفيذ هذا الإجراء."
+  },
+  "analytics": {
+    "title": "لوحة التحليلات",
+    "revenueMetrics": "مقاييس الإيرادات",
+    "bookingTrends": "اتجاهات الحجوزات",
+    "userActivity": "نشاط المستخدمين",
+    "fleetPerformance": "أداء الأسطول",
+    "insights": {
+      "peakHourPerformance": "أداء ساعات الذروة",
+      "batteryAlert": "تنبيه البطارية",
+      "revenueTarget": "هدف الإيرادات",
+      "monthlyAchievement": "الإنجاز الشهري",
+      "efficiencyImprovement": "تحسين الكفاءة",
+      "marketExpansion": "توسع السوق"
+    }
+  },
+  "viewModes": {
+    "overview": "نظرة عامة",
+    "list": "قائمة",
+    "bookingsList": "قائمة الحجوزات",
+    "disputeManagement": "إدارة النزاعات",
+    "analytics": "التحليلات",
+    "stats": "الإحصائيات"
+  },
+  "templates": {
+    "title": "قوالب الإشعارات",
+    "subtitle": "قوالب جاهزة لأنواع الإشعارات الشائعة",
+    "searchPlaceholder": "البحث في القوالب...",
+    "createTemplate": "إنشاء قالب",
+    "useTemplate": "استخدام القالب",
+    "editTemplate": "تعديل القالب",
+    "copyTemplate": "نسخ القالب",
+    "deleteTemplate": "حذف القالب",
+    "noTemplatesFound": "لم يتم العثور على قوالب",
+    "tryAdjustingFilters": "جرب تعديل معايير البحث أو التصفية",
+    "createFirstTemplate": "أنشئ قالبك الأول للبدء",
+    "usedTimes": "تم الاستخدام {count} مرة",
+    "welcomeNewUser": "ترحيب بمستخدم جديد",
+    "promotionalOffer": "عرض ترويجي",
+    "maintenanceAlert": "تنبيه صيانة",
+    "rideReminder": "تذكير رحلة",
+    "paymentFailed": "فشل الدفع",
+    "rideCompleted": "اكتملت الرحلة",
+    "categories": {
+      "all": "الكل",
+      "onboarding": "التأهيل",
+      "marketing": "التسويق",
+      "transactional": "المعاملات",
+      "operational": "التشغيلية"
+    }
+  },
+  "reports": {
+    "title": "التقارير والتحليلات",
+    "subtitle": "تحليلات وتقارير شاملة",
+    "generateReport": "إنشاء تقرير",
+    "exportReport": "تصدير التقرير",
+    "dateRange": "نطاق التاريخ",
+    "reportType": "نوع التقرير",
+    "customReports": "التقارير المخصصة",
+    "weeklyRevenueSummary": "ملخص الإيرادات الأسبوعية",
+    "userEngagementAnalysis": "تحليل مشاركة المستخدمين",
+    "fleetUtilizationReport": "تقرير استخدام الأسطول",
+    "comprehensiveWeeklyRevenue": "تفصيل شامل للإيرادات الأسبوعية حسب المناطق",
+    "monthlyUserBehavior": "سلوك المستخدمين الشهري وأنماط المشاركة",
+    "dailyFleetPerformance": "أداء الأسطول اليومي وتتبع الصيانة"
+  },
+  "schedule": {
+    "weekly": "أسبوعي",
+    "monthly": "شهري",
+    "daily": "يومي",
+    "lastRun": "آخر تشغيل",
+    "scheduledFor": "مجدول لـ",
+    "createdAt": "تم الإنشاء في"
+  },
+  "audience": {
+    "newUsers": "مستخدمون جدد",
+    "activeUsers": "مستخدمون نشطون",
+    "locationBased": "حسب الموقع",
+    "inactiveUsers": "مستخدمون غير نشطين",
+    "paymentFailed": "فشل الدفع",
+    "recentRiders": "راكبون حديثون"
+  },
+  "channels": {
+    "push": "إشعار فوري",
+    "email": "بريد إلكتروني",
+    "sms": "رسالة نصية",
+    "inApp": "داخل التطبيق"
+  },
+  "metrics": {
+    "revenue": "الإيرادات",
+    "rides": "الرحلات",
+    "zones": "المناطق",
+    "users": "المستخدمون",
+    "sessions": "الجلسات",
+    "retention": "الاحتفاظ",
+    "fleet": "الأسطول",
+    "battery": "البطارية",
+    "maintenance": "الصيانة",
+    "openRate": "معدل الفتح",
+    "clickRate": "معدل النقر",
+    "deliveryRate": "معدل التسليم",
+    "sent": "مرسل",
+    "delivered": "تم التسليم",
+    "failed": "فشل",
+    "opened": "تم الفتح",
+    "clicked": "تم النقر"
+  }
+}
